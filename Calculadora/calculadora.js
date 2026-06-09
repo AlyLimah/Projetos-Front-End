@@ -47,17 +47,17 @@ function calcularArea (){
 
 const raio = document.getElementById("raio")
 
-function calcularAreaCircuferencia(){
+function calcularAreaCircunferencia(){
     const raioValue = parseFloat(raio.value)
 
     if (isNaN(raioValue)){
-        outCircuferencia = `Digite um valor válido!`
+        outCircunferencia = `Digite um valor válido!`
         return;
     }
 
     let pi = Math.PI;
 
-    let areaCircuferencia = (raioValue ** 2) * pi;
+    let areaCircunferencia = (raioValue ** 2) * pi;
 
-    outCircuferencia.innerHTML = `A área da circuferência cujo o raio é ${raioValue} é ${areaCircuferencia}`;
+    outCircunferencia.innerHTML = `A área da circuferência cujo o raio é ${raioValue} é ${areaCircunferencia}`;
 }
