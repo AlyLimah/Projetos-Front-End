@@ -3,7 +3,7 @@ const outTabuada = document.getElementById("outTabuada");
 
 
 
-function calcularTabuada() {
+const calcularTabuada = () => {
     const numberValue = parseFloat(number.value)
 
     if (isNaN(numberValue)){
@@ -21,7 +21,7 @@ function calcularTabuada() {
     outTabuada.innerHTML = tabuada;
 }
 
-function limparCalculo() {
+const limparCalculo = () => {
     outTabuada.innerHTML = "";
     outArea.innerHTML = "";
     outCircunferencia.innerHTML = "";
@@ -31,7 +31,7 @@ function limparCalculo() {
 const base = document.getElementById("base")
 const altura = document.getElementById("altura")
 
-function calcularArea (){
+const calcularArea = () => {
     const baseValue = parseFloat(base.value)
     const alturaValue = parseFloat(altura.value)
 
@@ -47,7 +47,7 @@ function calcularArea (){
 
 const raio = document.getElementById("raio")
 
-function calcularAreaCircunferencia(){
+const calcularAreaCircunferencia = () => {
     const raioValue = parseFloat(raio.value)
 
     if (isNaN(raioValue)){
