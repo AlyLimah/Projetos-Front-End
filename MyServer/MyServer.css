@@ -1,0 +1,56 @@
+body {
+    background-color: #0c1014;
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.header {  
+    background-color: #05080a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 50px;
+    padding: 16px;
+
+}
+
+.header__logo {
+    font-size: 46px;
+    text-transform: uppercase;
+}
+
+.header__options ul{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    font-size: 20px;
+   
+    
+}
+
+.header__options a {
+    color: white;
+    padding: 14px;
+    border-radius: 10px;
+    
+}
+
+.header__options a:hover {
+    background-color: #001747;
+    color: #05080a;
+}
+
+.main-title {
+    text-align: center;
+}
+
+.plans-pricing {
+    display: flex;
+    background-color: #1f262c;
+    justify-content: center;
+    
+}
