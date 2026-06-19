@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora</title>
     <link href="calculadora.css" rel="stylesheet">
 </head>
 <body>
@@ -14,11 +14,11 @@
      <div class="form">
         <div class="linha">
     <label>Digite um número: 
-        <input type="number" id="number">
+        <input type="text" id="number">
     </label>
      
-    <button onclick="calcularTabuada()">Mostrar Tabuada</button>
-    <button onclick="limparCalculo()">Limpar</button>
+    <button class="calcularTabuada">Mostrar Tabuada</button>
+    <button class="limparCalculo">Limpar</button>
     <output id="outTabuada"></output>
         </div>
 </div>
@@ -28,13 +28,13 @@
      <div class="form">
         <div class="linha">
         <label>Digite a base:
-            <input type="number" id="base">
+            <input type="text" id="base">
         </label>
         <label>Digite a altura:
-            <input type="number" id="altura">
+            <input type="text" id="altura">
         </label>
-        <button onclick="calcularArea()">Calcular Área</button>
-        <button onclick="limparCalculo()">Limpar</button>
+        <button class="calcularArea">Calcular Área</button>
+        <button class="limparCalculo">Limpar</button>
        <output id="outArea"></output>
         </div>
      </div>
@@ -44,16 +44,13 @@
      <div class="form">
         <div class="linha">
             <label>Digite o raio:
-                <input type="number" id="raio">
+                <input type="text" id="raio">
             </label>
-            <button onclick="calcularAreaCircunferencia()">Calcular Área</button>
-            <button onclick="limparCalculo()">Limpar</button>
+            <button class="calcularAreaCircunferencia">Calcular Área</button>
+            <button class="limparCalculo">Limpar</button>
             <output id="outCircunferencia"></output>
         </div>
      </div>
-
-
-
         <script src="calculadora.js"></script>
 </body>
 </html>
