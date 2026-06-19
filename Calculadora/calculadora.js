@@ -67,10 +67,15 @@ calcularArea.addEventListener("click", () => {
 
 });
 
+//Limpar formulários e resultados
 limparCalculo.forEach(botao => {
     botao.addEventListener("click", () => {
-        outTabuada.innerHTML = ""
-        outArea.innerHTML = ""
-        outCircunferencia.innerHTML = ""
+        outTabuada.innerHTML = "";
+        outArea.innerHTML = "";
+        outCircunferencia.innerHTML = "";
+        number.value = "";
+        raio.value = "";
+        base.value = "";
+        altura.value = "";
     });
 });
