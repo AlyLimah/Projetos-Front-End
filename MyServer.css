@@ -32,7 +32,6 @@ body {
     gap: 1rem;
     list-style: none;
     font-size: 1.8rem;
-   
 }
 
 .header__options a {
@@ -40,6 +39,7 @@ body {
     padding: 1.6rem;
     border-radius: 10px;
     text-decoration: none; 
+    overflow: hidden;
 }
 
 .header__options a:hover {
@@ -60,6 +60,8 @@ body {
 
 .plans-options {
     background-color: #1f262c;
+    display: flex;
+    flex-direction: column;
     border-radius: 14px;
     flex: 1;
     padding: 2rem;
@@ -69,7 +71,6 @@ body {
 .plan-title {
     font-size: 2.5rem;
     border-bottom: 2px solid var(--details-color);
-    padding-bottom: 0.5em;
     margin-bottom: 1em;
     text-transform: uppercase;
 }
@@ -85,21 +86,23 @@ body {
 
 .plan-price-features {
     font-size: 1.5rem;
-    background-color: #1f262c;
+    flex-grow: 1;
     padding-left: 1em;
     color: #cccc;
-    margin: 0 0 2em;
+  
 }
 
 .plan-subscribe {
-    background-color: #001747;
-    text-align: center;
+    background-color: var(--details-color);
+    display: block;
     text-decoration: none;
+    text-align: center;
     color: white;
     font-size: 1.6rem;
     font-weight: bold;
     padding: 1em;
     border-radius: 6px;
-   
+    margin-top: 3em;
+    
 }
-teste
+
