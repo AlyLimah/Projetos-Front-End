@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="calculadora.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <h2>Tabuada</h2>
+     <div class="form">
+        <div class="linha">
+    <label>Digite um número: 
+        <input type="text" id="number">
+    </label>
+     
+    <button class="calcularTabuada">Mostrar Tabuada</button>
+    <button class="limparCalculo">Limpar</button>
+    <output id="outTabuada"></output>
+        </div>
+</div>
+
+    <!--Calculadora da Área do Triângulo-->
+     <h2>Área do Triângulo</h2>
+     <div class="form">
+        <div class="linha">
+        <label>Digite a base:
+            <input type="text" id="base">
+        </label>
+        <label>Digite a altura:
+            <input type="text" id="altura">
+        </label>
+        <button class="calcularArea">Calcular Área</button>
+        <button class="limparCalculo">Limpar</button>
+       <output id="outArea"></output>
+        </div>
+     </div>
+
+     <!--Área de Circuferência-->
+     <h2>Área da Circunferência</h2>
+     <div class="form">
+        <div class="linha">
+            <label>Digite o raio:
+                <input type="text" id="raio">
+            </label>
+            <button class="calcularAreaCircunferencia">Calcular Área</button>
+            <button class="limparCalculo">Limpar</button>
+            <output id="outCircunferencia"></output>
+        </div>
+     </div>
+        <script src="calculadora.js"></script>
+</body>
+</html>
